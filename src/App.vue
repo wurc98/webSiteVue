@@ -1,23 +1,17 @@
 <template>
-  <Login msg="wellcom to webSite!" @test="add"></Login>
+  <wu-index></wu-index>
 </template>
-
 <script lang="ts">
-
-import {effect} from "@vue/reactivity"
-import Login from "./views/login.vue"
+import WuTop from './components/top.vue'
+import WuIndex from './views/index.vue'
 export default {
   name: 'App',
   components:{
-    Login
+    WuTop,
+    WuIndex
   },
   setup(){
-
-    function add(a:number){
-      console.log(a)
-    }
     return {
-      add
     }
   }
 }

@@ -12,7 +12,7 @@ export default createStore({
     },
     getters:{
         getUserName(state:State){
-            return state.userName
+            return state.userName   
         }
     },
     mutations: {

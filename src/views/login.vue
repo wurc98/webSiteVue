@@ -7,7 +7,6 @@
 </template>
 
 <script lang="ts">
-import {ref,reactive} from 'vue'
 import { useStore } from 'vuex';
 export default {
    
@@ -19,4 +18,4 @@ export default {
         console.log(store.getters.getUserName)
     }   
 }
-</script>
+</script> 

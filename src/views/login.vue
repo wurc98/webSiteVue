@@ -1,7 +1,4 @@
 <template>
-    <div>
-    {{msg}}
-    </div>
     <el-button>123</el-button>
 
 </template>

@@ -8,8 +8,8 @@ export default createRouter({
   routes: [
     {
       path: "/",
-      name: "First",
-      component: () => import("../views/login.vue")
+      name: "Index",
+      component: () => import("../views/index.vue")
     }
   ]
 })

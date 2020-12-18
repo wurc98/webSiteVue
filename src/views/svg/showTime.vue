@@ -52,14 +52,14 @@ export default {
 <style scoped>
 
 svg {
-	height:20vh;
+	height:15vh;
 	width:25vw;
     position: absolute;
     right: 0vw;
     top: 0vh;
 }
 .words {
-	font-size:10vh;
+	font-size:8vh;
 	font-weight:bold;
 	text-transform:uppercase;
 	fill:none;

@@ -8,8 +8,8 @@ export default createRouter({
   routes: [
     {
       path: "/",
-      name: "Index",
-      component: () => import("../views/index.vue")
+      name: "homePage",
+      component: () => import("../views/homePage/homePage.vue")
     }
   ]
 })

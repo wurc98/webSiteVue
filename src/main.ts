@@ -6,8 +6,7 @@ import 'element-plus/lib/theme-chalk/index.css';
 import vuex from "./store/index"
 import './index.css'
 import './assets/icon/style.css'
-
-
+import './assets/icon/font/iconfont.js'
 const app =createApp(App);
 app.use(router);    
 app.use(vuex);    
